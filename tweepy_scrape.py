@@ -38,12 +38,13 @@ def get_tweets(query, language, date_since=dt.today().date(), maxItems=None):
         tweet_atts.append(tweet.created_at)
         tweet_atts.append(tweet.entities['hashtags'])
         tweet_atts.append(tweet.entities['user_mentions'])
+        tweet_atts.append(tweet.entities['urls'])
         tweets_list.append(tweet_atts)
     return tweets_list
 
 
 test=get_tweets(query='US Election',language='en',maxItems=10000)
 
-tweets_df=pd.DataFrame(test,columns=['contents','likes','retweets','username','location','followers','user_create', 'tweet_create','hashtag','mentions'])
+tweets_df=pd.DataFrame(test,columns=['contents','likes','retweets','username','location','followers','user_create', 'tweet_create','hashtag','mentions', 'urls'])
 tweets_df.to_csv('Election_tweets_'+str(dt.today().date())+'.csv')
 
