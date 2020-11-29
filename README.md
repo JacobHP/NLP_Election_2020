@@ -9,9 +9,10 @@ I also explored whether we could find clusters of tweets with similar characteri
 These largely proved futile and hence (after learning a bit more about NLP) I decided to utilise the equivalence of the cosine dissimilarity distance metric with Euclidean distance for unit vectors and apply MiniBatch KMeans after tfidf vectorisation and stopword removal. This proved to produce somewhat interesting segmentations, although there was still some overlap. 
 
 
-![alt text](https://github.com/JacobHP/NLP_Election_2020/blob/master/Images_for_readme/Clusters.png?raw=true)
+![alt text](https://github.com/JacobHP/NLP_Election_2020/blob/master/Images_for_readme/Final_Clustering_and_Analysis_-_TFIDF_and_MiniBatchKMeans_-_Jupyter_Notebook.png?raw=true)
 ![alt text](https://github.com/JacobHP/NLP_Election_2020/blob/master/Images_for_readme/Cloud.png?raw=true)   
 ![alt text](https://github.com/JacobHP/NLP_Election_2020/blob/master/Images_for_readme/Sentiment.png?raw=true)
+
 
 
 # Part 2
