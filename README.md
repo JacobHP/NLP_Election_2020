@@ -13,7 +13,3 @@ These largely proved futile and hence (after learning a bit more about NLP) I de
 ![alt text](https://github.com/JacobHP/NLP_Election_2020/blob/master/Images_for_readme/Cloud.png?raw=true)   
 ![alt text](https://github.com/JacobHP/NLP_Election_2020/blob/master/Images_for_readme/Sentiment.png?raw=true)
 
-
-
-# Part 2
-For this part I want to look at whether we can accurately classify pro-biden and pro-trump tweets based on contents alone. I will be labelling based on hashtags. 
